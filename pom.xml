@@ -35,4 +35,8 @@
             </plugin>
         </plugins>
   </build>
+  <properties>
+    <!-- Other properties -->
+    <sonar.java.binaries>target/classes</sonar.java.binaries>
+  </properties>
 </project>
